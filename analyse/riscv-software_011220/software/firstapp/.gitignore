@@ -1,0 +1,6 @@
+*.asm
+*.o
+firstapp
+firstapp.*
+stdout
+trace

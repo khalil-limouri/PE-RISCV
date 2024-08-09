@@ -1,0 +1,3 @@
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000ab4

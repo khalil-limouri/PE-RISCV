@@ -1,0 +1,6 @@
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: pushed [  2]
+irstack: popped [  2] --> 000007e8
+irstack: popped [  1] --> 000006c4
+irstack: popped [  0] --> 00000928

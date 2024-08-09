@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gawk '{print $8 " " $9}' $1 > test1
+gawk '{gsub(/addr=|instr=/," "); print}' test1  > test2
+rm ./test1
+gawk ' {$1="@0x"$1":"; print}' test2 > test3
+rm ./test2
+gawk ' {$2="0x"$2; print}' test3 > trace_stimuli_op 
+rm ./test3

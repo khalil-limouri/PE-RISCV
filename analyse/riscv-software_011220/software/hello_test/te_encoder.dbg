@@ -1,0 +1,259 @@
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: pushed [  2]
+irstack: popped [  2] --> 000002c0
+irstack: popped [  1] --> 0000067c
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000680
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000688
+irstack: pushed [  1]
+irstack: pushed [  2]
+irstack: pushed [  3]
+irstack: popped [  3] --> 000000a8
+irstack: popped [  2] --> 000000a8
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000006a8
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000000a8
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000000a8
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: irstack depth at minimum (0) ... no return address to pop!
+irstack: pushed [  0]
+irstack: popped [  0] --> 000006bc
+irstack: pushed [  0]
+irstack: popped [  0] --> 000006c4
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: pushed [  2]
+irstack: pushed [  3]
+irstack: pushed [  4]

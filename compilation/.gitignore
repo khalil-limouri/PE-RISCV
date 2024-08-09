@@ -1,0 +1,12 @@
+bsp/libcv-verif.a
+*.o
+*.s
+*.S
+!bsp/*.s
+!bsp/*.S
+*.elf
+*.hex
+*.itb
+*.objdump
+*.readelf
+

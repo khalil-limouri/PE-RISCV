@@ -1,0 +1,57 @@
+VSIM_WORK?=$(ROOTDIR)/../../../RV32I_Monocycle/work
+SDK=$(TARGETDIR)/$(RISCV_TARGET)/device/$(RISCV_DEVICE)
+
+LDSCRIPT=$(SDK)/linker.ld
+START=$(SDK)/start.S
+BIN2HEX=$(SDK)/bin2hex.py
+BYTEHEX2BIN=$(SDK)/stdout_hex2bin.py
+
+TARGET_SIM=vsim -work $(VSIM_WORK)
+TARGET_FLAGS=$(RISCV_TARGET_FLAGS)
+
+RUN_TARGET=\
+    echo \
+      $(TARGET_SIM) $(TARGET_FLAGS) -gui -quiet -msgmode both rv32i_tb \
+      -wlf $(work_dir_isa)/$(*)vsim.wlf -logfile $(work_dir_isa)/$(*).vsim.transcript \
+      -Grom_init_filename=$(work_dir_isa)/$<.hex \
+      -Gram_init_filename=$(work_dir_isa)/$<.hex \
+      -Gmax_cycles=10000 \
+      -Gverbose=0 \
+      -Gstdout_filename=$(work_dir_isa)/$(*).stdout.hex \
+      -Gsignature_filename=$(work_dir_isa)/$(*).signature.output.upcase \
+      -Gtrace_filename=$(work_dir_isa)/$(*).trace > $(work_dir_isa)/$(*).gui.cmd && \
+    $(TARGET_SIM) $(TARGET_FLAGS) -c -quiet rv32i_tb -do 'run -all; exit -f' \
+      -wlf $(work_dir_isa)/$(*)vsim.wlf -logfile $(work_dir_isa)/$(*).vsim.transcript \
+      -Grom_init_filename=$(work_dir_isa)/$<.hex \
+      -Gram_init_filename=$(work_dir_isa)/$<.hex \
+      -Gmax_cycles=10000 \
+      -Gverbose=0 \
+      -Gstdout_filename=$(work_dir_isa)/$(*).stdout.hex \
+      -Gsignature_filename=$(work_dir_isa)/$(*).signature.output.upcase \
+      -Gtrace_filename=$(work_dir_isa)/$(*).trace && \
+		$(BYTEHEX2BIN) $(work_dir_isa)/$(*).stdout.hex > $(work_dir_isa)/$(*).stdout && \
+		echo "stdout:" && \
+		cat $(work_dir_isa)/$(*).stdout && \
+		cat $(work_dir_isa)/$(*).signature.output.upcase | tr 'A-F' 'a-f' > $(work_dir_isa)/$(*).signature.output && \
+		echo 'signature available at: $(work_dir_isa)/$(*).signature.output'
+
+
+PREFIX?=riscv-none-embed-
+GCC=$(PREFIX)gcc
+OBJCOPY=$(PREFIX)objcopy
+OBJDUMP=$(PREFIX)objdump
+CFLAGS?= -march=rv32i -mabi=ilp32 -nostartfiles -nostdlib -nodefaultlibs -g -O0
+LDFLAG?=
+
+COMPILE_TARGET=\
+	$$(GCC) $$(CFLAGS) $(START) $(2) $$(RISCV_GCC_OPTS) \
+		-I$(ROOTDIR)/riscv-test-env/ \
+		-I$(ROOTDIR)/riscv-test-env/p/ \
+		-I$(TARGETDIR)/$(RISCV_TARGET)/ \
+		-T$(LDSCRIPT) $$< \
+		-o $(work_dir_isa)/$$@ && \
+    $$(OBJDUMP) -d -S $(work_dir_isa)/$$@ > $(work_dir_isa)/$$@.asm && \
+    $$(OBJDUMP) -d -S --disassembler-options=numeric,no-aliases $(work_dir_isa)/$$@ > $(work_dir_isa)/$$@.canonical.asm && \
+    $$(OBJCOPY) -O binary $(work_dir_isa)/$$@ $(work_dir_isa)/$$@.bin && \
+    $$(BIN2HEX) $(work_dir_isa)/$$@.bin > $(work_dir_isa)/$$@.hex
+

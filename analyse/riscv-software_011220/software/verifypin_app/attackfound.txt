@@ -1,0 +1,12 @@
+flim	attacks
+0	0
+1	2
+2	9
+3	19
+4	21
+
+Non redundant attacks :	4
+ - appli_1_test/test000012.ktest
+ - appli_1_test/test000013.ktest
+ - appli_2_test/test000005.ktest
+ - appli_4_test/test000017.ktest

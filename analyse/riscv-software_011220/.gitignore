@@ -1,0 +1,8 @@
+libs
+modelsim.ini
+*~
+*.tag
+*.wlf
+transcript
+xpack-riscv-none-embed-gcc-*.tgz
+crosscompile/*

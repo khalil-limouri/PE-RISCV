@@ -1,0 +1,46 @@
+irstack: pushed [  0]
+irstack: pushed [  1]
+irstack: popped [  1] --> 000001bc
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000200
+irstack: pushed [  1]
+irstack: popped [  1] --> 000007cc
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000810
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000dd8
+irstack: pushed [  1]
+irstack: popped [  1] --> 00000e1c
+irstack: pushed [  1]
+irstack: popped [  1] --> 000013e8
+irstack: pushed [  1]
+irstack: popped [  1] --> 0000142c
+irstack: pushed [  1]
+irstack: popped [  1] --> 000019fc
+irstack: pushed [  1]
+irstack: popped [  1] --> 00001a40
+irstack: pushed [  1]
+irstack: popped [  1] --> 0000200c
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002050
+irstack: pushed [  1]
+irstack: popped [  1] --> 000027e0
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002824
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002968
+irstack: pushed [  1]
+irstack: popped [  1] --> 000029ac
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002af8
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002b3c
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002e64
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002ea8
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002eec
+irstack: pushed [  1]
+irstack: popped [  1] --> 00002f60
+irstack: popped [  0] --> 0000002c
