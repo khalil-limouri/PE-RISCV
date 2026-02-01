@@ -1,5 +1,5 @@
-# PE: "Étude des options de compilation influençant l’analyse statique du binaire en vue de la vérification de l’intégrité du flot de contrôle"
-## Khalil Limouri
+# Study Project (Projet d'Étude : PE) Title: 
+**The CFI-Compiler-Impact challenge: How compilation affects static binary analysis.**
 
 ### init.txt :
 
